@@ -7,7 +7,7 @@ import '@aws-amplify/ui-react/styles.css'
 import outputs from '../amplify_outputs.json'
 
 Amplify.configure(outputs);
-console.log('REACT_APP_TEST_VARIABLE', process.env.REACT_APP_TEST_VARIABLE);
+console.log('REACT_APP_TEST_VARIABLE=', process.env.REACT_APP_TEST_VARIABLE);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
